@@ -14,6 +14,7 @@
 		73AE6CB62BA02CE300E255AD /* Auto_Layout_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73AE6CB42BA02CE300E255AD /* Auto_Layout_Demo.xcdatamodeld */; };
 		73AE6CB82BA02CE400E255AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AE6CB72BA02CE400E255AD /* Assets.xcassets */; };
 		73AE6CBB2BA02CE400E255AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AE6CB92BA02CE400E255AD /* LaunchScreen.storyboard */; };
+		73AE6CC32BA0337500E255AD /* S1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AE6CC22BA0337500E255AD /* S1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		73AE6CB72BA02CE400E255AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73AE6CBA2BA02CE400E255AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73AE6CBC2BA02CE400E255AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73AE6CC22BA0337500E255AD /* S1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				73AE6CB92BA02CE400E255AD /* LaunchScreen.storyboard */,
 				73AE6CBC2BA02CE400E255AD /* Info.plist */,
 				73AE6CB42BA02CE300E255AD /* Auto_Layout_Demo.xcdatamodeld */,
+				73AE6CC22BA0337500E255AD /* S1.swift */,
 			);
 			path = "Auto Layout Demo";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				73AE6CB02BA02CE300E255AD /* ViewController.swift in Sources */,
 				73AE6CAC2BA02CE300E255AD /* AppDelegate.swift in Sources */,
 				73AE6CAE2BA02CE300E255AD /* SceneDelegate.swift in Sources */,
+				73AE6CC32BA0337500E255AD /* S1.swift in Sources */,
 				73AE6CB62BA02CE300E255AD /* Auto_Layout_Demo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

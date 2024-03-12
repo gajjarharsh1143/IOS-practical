@@ -15,5 +15,14 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonTapped(_sender:UIButton){
+        if _sender.title(for: .normal) == "X"{
+            _sender.setTitle("To Long Title", for: .normal);
+        }
+        else{
+            _sender.setTitle("X", for: .normal)
+        }
+    }
+    
 }
 
