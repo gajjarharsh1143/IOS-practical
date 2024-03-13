@@ -6,14 +6,31 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
 
+    var CLM : CLLocationManager?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.CLM?.delegate = self
+        
+        self.CLM = CLLocationManager()
+        
+        self.CLM?.desiredAccuracy = kCLLocationAccuracyBest
+        
+        self.CLM?.requestWhenInUseAuthorization()
+        
+        self.CLM?.startUpdatingLocation()
     }
-
-
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        var MyLocation = locations.first;
+        
+        print(MyLocation?.coordinate.latitude)
+        print(MyLocation?.coordinate.longitude)
+    }
 }
 
