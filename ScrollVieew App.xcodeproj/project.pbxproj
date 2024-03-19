@@ -14,6 +14,8 @@
 		737A1C142BA9641A001D638F /* ScrollVieew_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 737A1C122BA9641A001D638F /* ScrollVieew_App.xcdatamodeld */; };
 		737A1C162BA9641B001D638F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737A1C152BA9641B001D638F /* Assets.xcassets */; };
 		737A1C192BA9641B001D638F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737A1C172BA9641B001D638F /* LaunchScreen.storyboard */; };
+		737A1C212BA964EE001D638F /* img3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 737A1C202BA964EE001D638F /* img3.jpeg */; };
+		737A1C232BA9688F001D638F /* img1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 737A1C222BA9688F001D638F /* img1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		737A1C152BA9641B001D638F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		737A1C182BA9641B001D638F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		737A1C1A2BA9641B001D638F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737A1C202BA964EE001D638F /* img3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img3.jpeg; path = ../../../../Downloads/img3.jpeg; sourceTree = "<group>"; };
+		737A1C222BA9688F001D638F /* img1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img1.jpeg; path = ../../../../Downloads/img1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		737A1C082BA9641A001D638F /* ScrollVieew App */ = {
 			isa = PBXGroup;
 			children = (
+				737A1C222BA9688F001D638F /* img1.jpeg */,
+				737A1C202BA964EE001D638F /* img3.jpeg */,
 				737A1C092BA9641A001D638F /* AppDelegate.swift */,
 				737A1C0B2BA9641A001D638F /* SceneDelegate.swift */,
 				737A1C0D2BA9641A001D638F /* ViewController.swift */,
@@ -128,7 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737A1C232BA9688F001D638F /* img1.jpeg in Resources */,
 				737A1C192BA9641B001D638F /* LaunchScreen.storyboard in Resources */,
+				737A1C212BA964EE001D638F /* img3.jpeg in Resources */,
 				737A1C162BA9641B001D638F /* Assets.xcassets in Resources */,
 				737A1C112BA9641A001D638F /* Main.storyboard in Resources */,
 			);
