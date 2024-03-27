@@ -17,6 +17,12 @@
 		BE6B67C92BB457F30027BC72 /* CRUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B67C82BB457F30027BC72 /* CRUDTests.swift */; };
 		BE6B67D32BB457F30027BC72 /* CRUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B67D22BB457F30027BC72 /* CRUDUITests.swift */; };
 		BE6B67D52BB457F30027BC72 /* CRUDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B67D42BB457F30027BC72 /* CRUDUITestsLaunchTests.swift */; };
+		BE6B67E52BB459670027BC72 /* Department+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B67E12BB459670027BC72 /* Department+CoreDataClass.swift */; };
+		BE6B67E62BB459670027BC72 /* Department+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B67E22BB459670027BC72 /* Department+CoreDataProperties.swift */; };
+		BE6B67E72BB459670027BC72 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B67E32BB459670027BC72 /* Employee+CoreDataClass.swift */; };
+		BE6B67E82BB459670027BC72 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B67E42BB459670027BC72 /* Employee+CoreDataProperties.swift */; };
+		BE95B54D2BB4624F00765555 /* IncDept.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95B54C2BB4624F00765555 /* IncDept.swift */; };
+		BE95B54F2BB4641400765555 /* IncEmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95B54E2BB4641400765555 /* IncEmp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		BE6B67CE2BB457F30027BC72 /* CRUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6B67D22BB457F30027BC72 /* CRUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDUITests.swift; sourceTree = "<group>"; };
 		BE6B67D42BB457F30027BC72 /* CRUDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE6B67E12BB459670027BC72 /* Department+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BE6B67E22BB459670027BC72 /* Department+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BE6B67E32BB459670027BC72 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BE6B67E42BB459670027BC72 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BE95B54C2BB4624F00765555 /* IncDept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncDept.swift; sourceTree = "<group>"; };
+		BE95B54E2BB4641400765555 /* IncEmp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncEmp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,10 @@
 		BE6B67A22BB457F10027BC72 = {
 			isa = PBXGroup;
 			children = (
+				BE6B67E12BB459670027BC72 /* Department+CoreDataClass.swift */,
+				BE6B67E22BB459670027BC72 /* Department+CoreDataProperties.swift */,
+				BE6B67E32BB459670027BC72 /* Employee+CoreDataClass.swift */,
+				BE6B67E42BB459670027BC72 /* Employee+CoreDataProperties.swift */,
 				BE6B67AD2BB457F10027BC72 /* CRUD */,
 				BE6B67C72BB457F30027BC72 /* CRUDTests */,
 				BE6B67D12BB457F30027BC72 /* CRUDUITests */,
@@ -109,6 +125,8 @@
 				BE6B67BC2BB457F30027BC72 /* LaunchScreen.storyboard */,
 				BE6B67BF2BB457F30027BC72 /* Info.plist */,
 				BE6B67B72BB457F10027BC72 /* CRUD.xcdatamodeld */,
+				BE95B54C2BB4624F00765555 /* IncDept.swift */,
+				BE95B54E2BB4641400765555 /* IncEmp.swift */,
 			);
 			path = CRUD;
 			sourceTree = "<group>";
@@ -261,9 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6B67E52BB459670027BC72 /* Department+CoreDataClass.swift in Sources */,
+				BE95B54F2BB4641400765555 /* IncEmp.swift in Sources */,
+				BE6B67E62BB459670027BC72 /* Department+CoreDataProperties.swift in Sources */,
 				BE6B67B32BB457F10027BC72 /* ViewController.swift in Sources */,
+				BE95B54D2BB4624F00765555 /* IncDept.swift in Sources */,
 				BE6B67AF2BB457F10027BC72 /* AppDelegate.swift in Sources */,
 				BE6B67B12BB457F10027BC72 /* SceneDelegate.swift in Sources */,
+				BE6B67E82BB459670027BC72 /* Employee+CoreDataProperties.swift in Sources */,
+				BE6B67E72BB459670027BC72 /* Employee+CoreDataClass.swift in Sources */,
 				BE6B67B92BB457F10027BC72 /* CRUD.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
